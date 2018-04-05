@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: local
+
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/jpastart?characterEncoding=utf8
+    username: jpauser
+    password: jpapass
+    tomcat:
+      max-active: 40
+      max-idle: 40
+
+  jpa:
+    show-sql: true

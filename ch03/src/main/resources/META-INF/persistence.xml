@@ -7,11 +7,11 @@
     version="2.1">
 
     <persistence-unit name="jpastart" transaction-type="RESOURCE_LOCAL">
-        <class>jpastart.reserve.model.User</class>
-        <class>jpastart.reserve.model.Room</class>
-        <class>jpastart.reserve.model.Hotel</class>
-        <class>jpastart.reserve.model.Review</class>
-        <class>jpastart.guide.model.City</class>
+        <class>model.User</class>
+        <class>model.Room</class>
+        <class>model.Hotel</class>
+        <class>model.Review</class>
+        <class>model.City</class>
 
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <!--<shared-cache-mode>ALL</shared-cache-mode>-->
